@@ -1,0 +1,230 @@
+/*--------------------
+    Header style
+----------------------- */
+* {
+    padding: 0px;
+}
+
+.boss {
+    background-color: rgba(255, 144, 14, 0.1);
+    ;
+    margin-bottom: 70px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+nav h2 {
+    margin-top: 10px;
+    margin-left: 200px;
+    font-weight: 700px;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    padding: 30px 80px 80px 80px;
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 90px;
+    width: 80px;
+    font-weight: 800;
+    font-size: 15px;
+
+
+}
+
+/* banner styles */
+.banners {
+    text-align: center;
+}
+
+.banner,
+h2 {
+    width: 100%;
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+
+.banners p {
+    font-weight: 400;
+    font-size: 16px;
+    width: 40%;
+    margin-left: 526px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+/* styles for button */
+.btn-primary {
+    padding: 18px;
+    color: rgb(250, 243, 243);
+    background-color: coral;
+    border: 0px;
+    border-radius: 3px;
+    margin-top: 10px;
+
+}
+
+/*----------------
+   image header 
+-------------------*/
+.section-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.section {
+    display: flex;
+}
+
+.image img {
+    margin-top: 60px;
+}
+
+/* images style */
+.section {
+    text-align: center;
+    margin-left: 100px;
+}
+
+.section p {
+    width: -60%;
+    margin-left: 250px;
+}
+
+.section img {
+    width: 300px;
+}
+
+.images {
+    margin: 15px 15px;
+}
+
+.section-title h3 {
+    font-size: 30px;
+
+}
+
+.section-title {
+    padding-right: 320px;
+    padding-top: 150px;
+}
+
+/* button style */
+.btn-primary {
+    margin-right: 100px;
+}
+
+.main-title {
+    margin-left: 0px;
+}
+
+.main-title h4 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+
+
+}
+
+.main-sub-title {
+    font-weight: 400;
+    font-size: 16px;
+    width: 40%;
+    color: #727272;
+
+}
+
+.main {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.main-title,
+p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.main-title,
+h5 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* box shadow style */
+.style1 {
+    background-color: rgb(255, 255, 255);
+    margin-right: 900px;
+    padding: 5px 5px 5px 8px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+
+
+}
+
+.style2 {
+    background-color: rgb(255, 255, 255);
+    margin-right: 900px;
+    padding: 5px 5px 5px 8px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+
+
+}
+
+.style3 {
+    background-color: rgb(255, 255, 255);
+    margin-right: 900px;
+    padding: 5px 5px 5px 8px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+
+
+}
+
+.style4 {
+    background-color: rgb(255, 255, 255);
+    margin-right: 900px;
+    padding: 5px 5px 5px 8px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+
+
+}
+
+.flex {
+    display: flex;
+    
+}
+
+.width {
+    width: 500px;
+    margin-top: 200px;
+    justify-content: center;
+}
+
+.btn {
+    background-color: coral;
+    padding: 50px 50px 50px 50px;
+    border: 0px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 20px;
+   
+}
+.icon{
+    
+   position: relative;
+   margin-top: 400px;
+}
