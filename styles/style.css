@@ -7,7 +7,6 @@
 
 .boss {
     background-color: rgba(255, 144, 14, 0.1);
-    ;
     margin-bottom: 70px;
 }
 
@@ -263,13 +262,14 @@ h5 {
     margin-top: 150px;
 }
 
-.experience div ul {
+.experience div ul{
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
     border: 1px solid goldenrod;
     padding: 10px 10px 10px 10px;
     border-radius: 10px;
+    transition: width, 2s;
 }
 
 /* Sponsers style */
@@ -305,4 +305,123 @@ h5 {
     margin-top: 100px;
     padding: 40px 10px 20px 20px;
     
+}
+/* Annimation */
+.experience div ul:hover{
+    width: 200px;
+    transform: rotate(180deg);
+    background-color: bisque;
+}
+/* Media query */
+@media screen and (max-width: 576px) {
+    .boss {
+        margin-bottom: 10px;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px 20px 0px;
+        margin-left: 80px;
+        
+    }
+    
+    nav h2 {
+        display: flex;
+        flex-direction:column;
+        margin-left: 60px;
+    }
+    
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    
+    }
+    
+    .image img{
+        width: 350px;
+    }
+    .banner,
+    h2 {
+        width: 100%;
+        font-size: 64px;
+        font-weight: 700;
+    
+    }
+   
+    .btn-primary {
+    }
+    .section-image {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+    
+    .section {
+        display: flex;
+        flex-direction: column;
+    }
+    .section-image {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+    
+    .section {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .image img {
+        margin-top: 60px;
+    }
+    
+    /* images style */
+    .section {
+        text-align: center;
+    }
+    
+    .section p {
+        width: -60%;
+    }
+    
+    .section img {
+        width: 300px;
+    }
+    
+    .images {
+        margin: 15px 15px;
+    }
+    
+    .section-title p {
+        width: -50%;
+    
+    }
+    
+    .section-title {
+        padding-right: 320px;
+        padding-top: 150px;
+    }
+    
+   
+    .main-title,
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        color: #727272;
+    }
+    
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+    
+    }
+   
+    
+    .experience div {
+        display: flex;
+       flex-direction: column;
+    }
 }
